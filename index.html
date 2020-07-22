@@ -22,7 +22,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggler">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto" data-toggle="collapse" data-target="#navbarToggler">
                         <li class="nav-item">
                             <a class="nav-link" href="#eyebrow-gallery">Gallery</a>
                         </li>
@@ -90,6 +90,63 @@
         </div>
         
     </section>
+
+    <!-- Responsive Gallery -->
+
+    <section id="eyebrow-gallery2" class="browart-section">
+        <div class="row" data-toggle="modal" data-target="#eyebrow-modal">
+            <div class="col-lg-12">
+                <h1 class="section-title">Gallery Test</h1>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img class="img-fluid" src="img/IMG_2843.jpg" data-target="#eyebrow-carousel" data-slide-to="0">
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img class="img-fluid" src="img/IMG_2839.jpg" data-target="#eyebrow-carousel" data-slide-to="1">
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="eyebrow-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+              </button>
+            </div>
+            <div class="modal-body">
+              <div id="eyebrow-carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#eyebrow-carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#eyebrow-carousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="5000">
+                        <img class="d-block w-100" src="img/IMG_2843.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                        <img class="d-block w-100" src="img/IMG_2839.jpg" alt="">
+                    </div>
+                </div>
+                
+                <a class="carousel-control-prev" href="#eyebrow-carousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#eyebrow-carousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- FAQ -->
     <section id="faq" class="browart-section">
