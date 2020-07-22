@@ -1,0 +1,135 @@
+
+/* ********************
+* ELEMENT SETTINGS
+******************** */
+
+/* Montserrat font family default for the whole page (https://fonts.googleapis.com) */
+body{
+    font-family: "Montserrat";
+    padding-top: 2rem;
+}
+
+address{
+    padding-left: 4rem;
+}
+
+
+
+/* ********************
+* CLASS SETTINGS
+******************** */
+
+/* Globalsetting for section titles */
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 1.5rem auto 1.5rem;
+}
+
+.browart-section{
+    padding: 3.5rem 2rem 1rem;
+}
+
+/* Navbar section */
+.navbar{
+    background-color: #725c89;
+    padding: 0.5rem 2rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+}
+
+/* FAQ section */
+
+.faq_question{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.faq-card-body{
+    padding: 0 1.25rem 0;
+}
+
+.faq-answer{
+    margin: 0.5rem 0;
+}
+
+/* Price section */
+
+.card{
+    padding-bottom: 1.5rem;
+}
+
+.price-header{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.alignright{
+    float: right;
+    margin-right: 5px;
+}
+
+.card-footer{
+    text-align: center;
+}
+
+.address-icon{
+    float: left;
+}
+
+/* Address section */
+
+.address-body{
+    padding: 2rem 4rem;
+}
+
+/* Footer section */
+
+.social-icon{
+    color:#fff;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.social-icon:hover{
+    color: #725c89;
+}
+
+
+/* ********************
+* ID SETTINGS
+******************** */
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+    }
+
+#address-title{
+    padding-bottom: 1rem;
+}
+
+#footer{
+    text-align: center;
+    color:#fff;
+    background-color: #111111;
+}
+
+#footer-title{
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 3rem 0rem 1rem;
+}
+
+#copyright{
+    color: #bbbbbb;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
