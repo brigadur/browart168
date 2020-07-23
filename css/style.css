@@ -67,7 +67,7 @@ address{
 /* Carousel section */
 
 .carousel-testimonial{
-    height: 14rem;
+    height: 16rem;
 }
 
 .star{
@@ -152,7 +152,7 @@ faq-card-header{
 ******************** */
 
 #testimonials{
-    padding-top: 1rem;
+    padding-top: 2rem;
     text-align: center;
     background-color: #424242;
     color: #fff;
