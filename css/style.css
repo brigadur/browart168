@@ -42,6 +42,36 @@ address{
     font-size: 2rem;
 }
 
+/* Image section */
+.modal-header{
+    background-color: #111111;
+}
+
+.close{
+    color: #fff;
+}
+
+.close:hover{
+    color: #fff;
+}
+
+.modal-body{
+    padding:0;
+}
+
+.modal-dialog{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Carousel section */
+
+.testimonial-text{
+    font-size: 1.5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
 /* FAQ section */
 
 .faq_question{
@@ -103,6 +133,12 @@ address{
 /* ********************
 * ID SETTINGS
 ******************** */
+
+#testimonials{
+    text-align: center;
+    background-color: #424242;
+    color: #fff;
+}
 
 /* Set the size of the div element that contains the map */
 #map {
