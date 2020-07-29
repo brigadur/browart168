@@ -42,6 +42,15 @@ address{
 }
 
 /* Image section */
+
+.gallery-header{
+    font-size: 1.5rem;
+}
+
+.gallery-main{
+    margin: 1.5rem auto 1.5rem;
+}
+
 .modal-header{
     background-color: #111111;
 }
@@ -55,18 +64,74 @@ address{
 }
 
 .modal-body{
-    padding:0;
+    background-color: #111111;
 }
 
-.modal-dialog{
+/* .modal-dialog{
     max-width: 100%;
-    max-height: 100%;
+    min-height: 100%;
+} */
+
+
+
+.modal-dialog-full-width {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width:none !important;
+
+}
+
+.modal-content-full-width  {
+    height: auto !important;
+    min-height: 100% !important;
+    border-radius: 0 !important;
+    background-color: #ececec !important 
+}
+
+.modal-header-full-width  {
+    border-bottom: 1px solid #9ea2a2 !important;
+}
+
+.modal-footer-full-width  {
+    border-top: 1px solid #9ea2a2 !important;
+}
+
+.img-modal{
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 900px){
+    .img-modal{
+        max-height: 95vh;
+        width: auto;
+    }
 }
 
 /* Carousel section */
 
+
 .carousel-testimonial{
-    height: 16rem;
+    height: 10rem;
+}
+
+@media (max-width: 1000px){
+    .carousel-testimonial{
+        height: 16rem;
+    }
+}
+
+.carousel-control-prev{
+    width: 5%;
+}
+
+.carousel-control-next{
+    width: 5%;
 }
 
 .star{
@@ -75,9 +140,9 @@ address{
 
 .testimonial-text{
     font-size: 1rem;
-    text-align: left;
-    /* padding-left: 8rem;
-    padding-right: 8rem; */
+    text-align: center;
+    /* padding-left: 2rem;
+    padding-right: 1rem; */
 }
 
 /* FAQ section */
@@ -112,6 +177,10 @@ faq-card-header{
 .price-header{
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+.special-price{
+    color: tomato;
 }
 
 .alignright{
