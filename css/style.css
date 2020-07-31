@@ -51,6 +51,10 @@ address{
     margin: 1.5rem auto 1.5rem;
 }
 
+.eyebrow-gallery-item{
+    margin-bottom: 0.5rem;
+}
+
 .modal-header{
     background-color: #111111;
 }
