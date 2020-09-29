@@ -110,12 +110,12 @@ address{
     margin-right: auto;
 }
 
-@media (max-width: 900px){
+/* @media (max-width: 900px){
     .img-modal{
         max-height: 95vh;
         width: auto;
     }
-}
+} */
 
 /* Carousel section */
 
